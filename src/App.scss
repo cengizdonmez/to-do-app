@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  color: #e5e5e5;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12.5px 24px;
+  background: #eff3f8;
+  border: 1px solid #e0e6ee;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7d7d7d;
+  margin-right: 16px;
+  border: 1px solid #e0e6ee;
+  outline: none;
+  &:hover {
+    background: #e0e6ee;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  &.active {
+    background: #651dff;
+    color: #ffffff;
+    border: transparent;
+  }
+  &.radius {
+    border-radius: 100px;
+    background: #651dff;
+    color: #ffffff;
+    padding: 16.5px 24px;
+  }
+}
+input {
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.todo-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1em;
+
+  .todo-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 56px;
+    padding-bottom: 90px;
+    border-radius: 8px;
+    max-width: 446px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 20px 80px #dfe8f3;
+    overflow: hidden;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5e5e;
+  &.task-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7d7d7d;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .todo-form {
+    padding-top: 16px !important;
+  }
+}
