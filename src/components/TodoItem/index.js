@@ -7,7 +7,6 @@ function TodoItem({ id, status = "", title, onChange, handleRemove }) {
   const [state, setState] = useContext(TodoContext);
   const { list } = state;
 
-  //const handleInputChange = (event) => {
   const handleInputChange = ({ target: { value } }) => {
     if (!(value.length > 50)) {
       setState({
@@ -16,7 +15,6 @@ function TodoItem({ id, status = "", title, onChange, handleRemove }) {
           item.id === id
             ? {
                 ...item,
-                //title: event.target.value,
                 title: value,
               }
             : item
