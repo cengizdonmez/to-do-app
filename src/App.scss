@@ -26,6 +26,9 @@ button {
   margin-right: 16px;
   border: 1px solid #e0e6ee;
   outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &:hover {
     background: #e0e6ee;
   }
