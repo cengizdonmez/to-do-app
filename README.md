@@ -26,9 +26,9 @@
 
 https://todo-app-cd.herokuapp.com/
 
-# Images
+# Preview
 
-![image](https://res.cloudinary.com/drsqatkqr/image/upload/v1609369666/TodoListImg_cthmqg.jpg){:height="531px" width="303px"}
+![image](https://res.cloudinary.com/drsqatkqr/image/upload/c_scale,w_300/v1609369666/TodoListImg_cthmqg.jpg)
 
 # signature
 
