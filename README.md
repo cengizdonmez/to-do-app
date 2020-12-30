@@ -19,8 +19,6 @@
 # Technologies
 
 - React
-- HTML
-- SCSS
 
 # App Demo
 
