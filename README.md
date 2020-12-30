@@ -16,10 +16,6 @@
 - Delete task
 - Empty state
 
-# Images
-
-![image](https://res.cloudinary.com/drsqatkqr/image/upload/v1609369666/TodoListImg_cthmqg.jpg)
-
 # Technologies
 
 - React
@@ -29,6 +25,10 @@
 # App Demo
 
 https://todo-app-cd.herokuapp.com/
+
+# Images
+
+![image](https://res.cloudinary.com/drsqatkqr/image/upload/v1609369666/TodoListImg_cthmqg.jpg){:height="531px" width="303px"}
 
 # signature
 
